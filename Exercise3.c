@@ -1,10 +1,14 @@
 /*
-*Exercise 3
-*Exercise sheet
-*Javier Marquez.
-*If first chain is larger, not accepted as prefix???.
-*ignorin how shitti are the conditions in the loop, it works.
-*/
+ ============================================================================
+ Name        : Exercise3.c
+ Author      : Javier Márquez
+ Version     : 1
+
+ Description : Exercise 3 from topic 2's exercises sheet. 
+ Is the string s1 prefix of the string 2?
+ Apparently it works.
+ ============================================================================
+ */
 
 #include <stdio.h>
 
@@ -22,9 +26,6 @@ int isPrefix(char s1[], char s2[]){
 	}
 	return n;
 }
-
-
-
 
 int main(int argc, char const *argv[]){
 	char s1[20] = "abcdefgha";
