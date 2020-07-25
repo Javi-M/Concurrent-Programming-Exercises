@@ -1,4 +1,4 @@
-# Concurren-Programming-Exercises
+# Concurrent-Programming-Exercises
 Exercises to practice such subject of my University.
 Please by careful by copying my code, it maybe have some mistakes even if I am use to check that they work... under certain conditions.
 
