@@ -1,11 +1,17 @@
-/*	Javier Marquez Ruiz
-*	Exercise 1 of the Exercises Sheet
-*	Comparing 2 strings for equality.
-*	If equal, zero is returned;
-*	if not, difference between the 2 first
-*	different characters returned.
-*	This program works as expected.
-*/
+/*
+ ============================================================================
+ Name        : Exercise1.c
+ Author      : Javier Márquez
+ Version     : 1
+
+ Description : Exercise 1 from topic 2's exercises sheet. 
+ Checking wether 2 strings are equal.
+ 	If equal: 0 is returned.
+	Otherwise returns the difference between the two first different characters.
+ This program works as expected.
+ ============================================================================
+ */
+
 #include <stdio.h>
 
 #define CONDITIONS cmp == 0 && *ptr1 != '\0' && *ptr2 != '\0'
