@@ -1,15 +1,17 @@
 /*
-======================
-Exercise5.c
-Autor: Javier Marquez Ruiz
-Problem to solve:
-	Using linked list of integers,
-	insert 100 random elements.
-	Then, sort them using the bubble sort algorithm.
-	Apparently, this works!
-======================
+ ============================================================================
+ Name        : Exercise5.c
+ Author      : Javier Márquez
+ Version     : 1
 
-*/
+ Description : Exercise 5 from topic 2's exercises sheet. 
+ Insert 100 random elements into a linked list of integers.
+ Then, sort the list using bubble sort algorithm.
+ I think it works!
+ (This is coded specifically for a size of 100).
+ (It is not difficult to use it with different sizes, just change loop conditions).
+ ============================================================================
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
