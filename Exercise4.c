@@ -2,8 +2,8 @@
  ============================================================================
  Name        : Exercise4.c
  Author      : Javier Márquez
- Version     :
- Copyright   : 
+ Version     : 1
+ 
  Description : Exercise 4 from topic 2's exercises sheet. 
  Take two strings as arguments. 
  If the first exists in the second as a substring,
@@ -58,8 +58,8 @@ int main(){
 	printf("%s\n", occ);
 	printf("%c\n", *occ);
 	
-	char *l = &s2[2]; 							//Address to first occurrence.
-	printf("%i\n", l);							//The number printed (address) must be the same.
+	char *l = &s2[2]; 				//Address to first occurrence.
+	printf("%i\n", l);				//The number printed (address) must be the same.
 	printf("%i\n", firstOccurrence(s1,s2)); 	//Warnings will appear.
 
 	return 0;
