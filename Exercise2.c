@@ -1,9 +1,16 @@
-/*	Exercise 2
-*	Exercises Sheet. Lesson 2
-*	Javier Marquez
-*	Find the first occurrence of a specific character in a given string. 
-*	Return a pointer to the occurrence in the string, or zero if it is not found.
-*/
+/*
+ ============================================================================
+ Name        : Exercise2.c
+ Author      : Javier Márquez
+ Version     : 1
+
+ Description : Exercise 2 from topic 2's exercises sheet. 
+ Find first occurrence of a character in a string.
+ 	Return a pointer to the occurrence in the string.
+	0 if not found.
+This program does not work as expected!
+ ============================================================================
+ */
 
 #include <stdio.h>
 
@@ -27,7 +34,6 @@ int main(){
 	printf("Found? : %i\n", f);
 
 	printf("%i\n", occurrence); //Occurence has the addres.
-								//IDK what to do with this...
 
 	return 0;
 }
